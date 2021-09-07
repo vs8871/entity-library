@@ -22,4 +22,12 @@ export class ProductInfo {
 
     @Column({ type: 'varchar', name: 'address' })
     address: string;
+
+
+    @Column({ type: 'varchar', name: 'bar_code' })
+    barCode: string;
+
+
+    @Column({ type: 'varchar', name: 'serial_number' })
+    serialNumber: string;
 }
