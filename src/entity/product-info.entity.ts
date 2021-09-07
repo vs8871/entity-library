@@ -6,9 +6,6 @@ export class ProductInfo {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column({ type: 'integer', name: 'letter_id' })
-    letterId: number;
-
 
     @Column({ type: 'date', name: 'receving_date' })
     recevingDate: date;
@@ -18,10 +15,6 @@ export class ProductInfo {
 
     @Column({ type: 'text', name: 'comment' })
     comment: string;
-
-
-    @Column({ type: 'varchar', name: 'address' })
-    address: string;
 
 
     @Column({ type: 'varchar', name: 'bar_code' })
