@@ -20,14 +20,6 @@ export class OrderInfo {
     feedback: string;
 
 
-    @Column({ type: 'varchar', name: 'address' })
-    address: string;
-
-
-    @Column({ type: 'varchar', name: 'customer_name' })
-    customerName: string;
-
-
     @Column({ type: 'varchar', name: 'customer_id' })
     customerId: string;
 }
