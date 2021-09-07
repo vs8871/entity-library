@@ -31,4 +31,9 @@ export class ShipmentInfo {
 
     @Column({ type: 'varchar', name: 'container_number' })
     containerNumber: string;
+
+
+    @Column({ type: 'varchar', name: 'dispatch_info' })
+    dispatchInfo: string;
+
 }

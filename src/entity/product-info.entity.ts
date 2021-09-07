@@ -23,4 +23,14 @@ export class ProductInfo {
 
     @Column({ type: 'varchar', name: 'serial_number' })
     serialNumber: string;
+
+
+    @Column({ type: 'varchar', name: 'product_serial_number' })
+    productSerialNumber: string;
+
+
+
+    @Column({ type: 'int', name: 'product_serial_id' })
+    productSerialId: number;
+
 }
