@@ -20,10 +20,4 @@ export class ProductInfo {
 
     @Column({ type: 'varchar', name: 'address' })
     address: string;
-
-    @Column({ type: 'varchar', name: 'product_serial_number' })
-    productSerialNumber: string;
-
-    @Column({ type: 'int', name: 'product_serial_id' })
-    productSerialId: undefined;
 }
