@@ -17,10 +17,4 @@ export class OrderInfo {
 
     @Column({ type: 'text', name: 'feedback' })
     feedback: string;
-
-    @Column({ type: 'varchar', name: 'basic_template' })
-    basicTemplate: string;
-
-    @Column({ type: 'int', name: 'order_e_mail_id' })
-    orderEMailId: undefined;
 }
