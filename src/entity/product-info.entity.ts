@@ -17,4 +17,7 @@ export class ProductInfo {
 
     @Column({ type: 'text', name: 'comment' })
     comment: string;
+
+    @Column({ type: 'varchar', name: 'address' })
+    address: string;
 }
