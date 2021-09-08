@@ -9,7 +9,6 @@ export class OrderInfo {
     @Column({ type: 'integer', name: 'Product_id' })
     productId: number;
 
-
     @Column({ type: 'date', name: 'Delivery_date' })
     deliveryDate: date;
 
@@ -19,8 +18,6 @@ export class OrderInfo {
     @Column({ type: 'text', name: 'feedback' })
     feedback: string;
 
-
     @Column({ type: 'varchar', name: 'customer_id' })
     customerId: string;
-
 }
