@@ -19,8 +19,8 @@ export class ShipmentInfo {
     @Column({ type: 'text', name: 'container' })
     container: string;
 
-    @Column({ type: 'text', name: 'yard_name' })
-    yardName: string;
+    @Column({ type: 'text', name: 'new_yard_name' })
+    newYardName: string;
 
     @Column({ type: 'text', name: 'parking_name' })
     parkingName: string;
