@@ -12,9 +12,9 @@ export class OrderInfo {
     @Column({ type: 'date', name: 'delivery_date' })
     deliveryDate: date;
 
-    @Column({ type: 'integer', name: 'quantity' })
-    quantity: number;
+    @Column({ type: 'varchar', name: 'quantity' })
+    quantity: string;
 
-    @Column({ type: 'text', name: 'feedback' })
-    feedback: string;
+    @Column({ type: 'integer', name: 'feedback' })
+    feedback: number;
 }
