@@ -26,4 +26,7 @@ export class ShipmentInfo {
 
     @Column({ type: 'text', name: 'delivery_yard' })
     deliveryYard: string;
+
+    @Column({ type: 'varchar', name: 'dispatch_info' })
+    dispatchInfo: string;
 }
