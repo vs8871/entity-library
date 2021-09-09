@@ -23,4 +23,7 @@ export class OrderInfo {
 
     @Column({ type: 'varchar(20)', name: 'pin_code' })
     pinCode: undefined;
+
+    @Column({ type: 'varchar', name: 'address' })
+    address: string;
 }
