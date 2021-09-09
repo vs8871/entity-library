@@ -17,7 +17,4 @@ export class OrderInfo {
 
     @Column({ type: 'text', name: 'feedback' })
     feedback: string;
-
-    @Column({ type: 'varchar', name: 'address' })
-    address: string;
 }
