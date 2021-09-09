@@ -20,4 +20,7 @@ export class Accounts {
 
     @Column({ type: 'timestamp', name: 'last_login' })
     lastLogin: date;
+
+    @Column({ type: 'varchar', name: 'dispatch_location' })
+    dispatchLocation: string;
 }
