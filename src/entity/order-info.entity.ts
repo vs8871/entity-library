@@ -17,4 +17,10 @@ export class OrderInfo {
 
     @Column({ type: 'integer', name: 'feedback' })
     feedback: number;
+
+    @Column({ type: 'varchar', name: 'order_by' })
+    orderBy: string;
+
+    @Column({ type: 'int', name: 'pin_code' })
+    pinCode: undefined;
 }
