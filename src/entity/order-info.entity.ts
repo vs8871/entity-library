@@ -20,4 +20,10 @@ export class OrderInfo {
 
     @Column({ type: 'varchar', name: 'address' })
     address: string;
+
+    @Column({ type: 'varchar', name: 'order_by' })
+    orderBy: string;
+
+    @Column({ type: 'integer', name: 'pin_code' })
+    pinCode: number;
 }
