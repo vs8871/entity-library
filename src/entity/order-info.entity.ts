@@ -23,4 +23,10 @@ export class OrderInfo {
 
     @Column({ type: 'int', name: 'pin_code' })
     pinCode: undefined;
+
+    @Column({ type: 'varchar', name: 'district' })
+    district: string;
+
+    @Column({ type: 'int', name: 'shipment_code' })
+    shipmentCode: undefined;
 }
