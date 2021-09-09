@@ -29,4 +29,7 @@ export class ShipmentInfo {
 
     @Column({ type: 'varchar', name: 'dispatch_location' })
     dispatchLocation: string;
+
+    @Column({ type: 'varchar', name: 'truck_number' })
+    truckNumber: string;
 }
