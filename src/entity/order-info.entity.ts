@@ -26,4 +26,7 @@ export class OrderInformation {
 
     @Column({ type: 'integer', name: 'pin_code' })
     pinCode: number;
+
+    @Column({ type: 'varchar', name: 'comment' })
+    comment: string;
 }
