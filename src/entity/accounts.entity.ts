@@ -15,6 +15,6 @@ export class Accounts {
     @Column({ type: 'varchar', name: 'email' })
     email: string;
 
-    @Column({ type: 'timestamp', name: 'created_on' })
-    createdOn: date;
+    @Column({ type: 'integer', name: 'created_on' })
+    createdOn: number;
 }
