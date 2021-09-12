@@ -17,4 +17,7 @@ export class Accounts {
 
     @Column({ type: 'integer', name: 'new_created_on' })
     newCreatedOn: number;
+
+    @Column({ type: 'varchar', name: 'dispatch_location' })
+    dispatchLocation: string;
 }
